@@ -1,0 +1,11 @@
+management:
+    context-path: /management
+    health:
+        mail:
+            enabled: false # When using the MailService, configure an SMTP server and set this to true
+spring:
+    application:
+        name: agla
+
+server:
+    port: 8081
